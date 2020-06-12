@@ -10,18 +10,17 @@ var replaceSentence = function(input) {
   var text = ""
   for (var i = 1; i <= numArray.length; i++) {
       if (i.toString().includes("3")) {
-          text += "wont you be my neighbor?"
+          text += "<li>wont you be my neighbor?</li>"
       } else if (i.toString().includes("2")) {
-          text += "boop"
+          text += "<li>boop</li>"
       } else if (i.toString().includes("1")) {
-          text += "beep"
+          text += "<li>beep</li>"
       } else {
-          text += i
+          text += "<li>" + i + "</li>"
       }
   }
   return text
 };
-
 
 $(document).ready(function() {
   $("#submit").click(function() {
@@ -30,4 +29,5 @@ $(document).ready(function() {
       $("#hidden").show()
       $("li").text("")
       $("li").append(final)
-  }); 
+  })
+})
