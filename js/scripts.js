@@ -2,18 +2,24 @@
 let humanArray = []
 let humanInput = function(input) {
   for (var i = 1; i <= input; i++) {
-      humanArray.push(i)
+      humanArray.push(i*10)
   }
   return humanArray
 }
-let intermediateSentence = function(input) {
+let intermediateFunction = function(input) {
   let numArray = humanInput(input);
   let text = ""
   for (var i = 1; i <= numArray.length; i++) {
-/* add function to loop and check chars at this point*/
+    if...
+      this
+      else if
+      this
+      else if
+      this
   
   }
   console.log(numArray);
+  console.log(intermediateFunction);
 };
 
 
@@ -21,7 +27,7 @@ let intermediateSentence = function(input) {
 $(document).ready(function() {
   $("#submit").click(function() {
       var english = $("#input").val()
-      var robot = intermediateSentence(english);
+      var robot = intermediateFunction(english);
       $("#hidden").show()
       $("li").text("")
       $("li").append(robot)
