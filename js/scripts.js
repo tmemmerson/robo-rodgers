@@ -1,4 +1,4 @@
-/* let userInput = "aerise3345h earith ret"
+let userInput = "aerise3345h earith ret"
 const consonantString = userInput;
 const consonantArray = consonantString.split("");
 const vowelizedArray = consonantArray.map(function(element) {
