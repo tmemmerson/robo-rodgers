@@ -36,7 +36,7 @@ _This application will take a user submitted number string and convert that stri
 
 *  _Github [repository](https://github.com/tmemmerson/robo-rodgers.git)_
 
-*  _Live [demo](https://tmemmerson.github.io/robo-rodgers)_
+*  _Live [demo](https://tmemmerson.github.io/robo-rodgers/)_
 
 
   
