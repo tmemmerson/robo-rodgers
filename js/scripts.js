@@ -30,4 +30,4 @@ $(document).ready(function() {
       $("#hidden").show()
       $("li").text("")
       $("li").append(final)
-  });
+  }); 
