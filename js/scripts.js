@@ -11,7 +11,7 @@ const consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", 
 const q = "q"
 const u = "u"
 
-function pigLatin(inputChar) {
+function roboRodger(inputChar) {
   if (vowels.indexOf(inputChar[0]) >= 0) {
     return (inputChar.join("") + "way");
   } else if (inputChar[0] === q && inputChar[1] === u) {
@@ -43,11 +43,11 @@ function pigLatin(inputChar) {
 }
 
 $(document).ready(function () {
-  $("form#pig-latin").submit(function (event) {
+  $("form#human").submit(function (event) {
     event.preventDefault();
-    const input = $("#sentence").val();
+    const input = $("#translate").val();
     let inputChar = input.split("");
-    const result = pigLatin(inputChar);
+    const result = roboRodger(inputChar);
     $("#result").text(result);
     console.log(inputChar);
   });
