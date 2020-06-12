@@ -1,10 +1,10 @@
-let userInput = "aerise3345h earith ret"
+/* let userInput = "aerise3345h earith ret"
 const consonantString = userInput;
 const consonantArray = consonantString.split("");
 const vowelizedArray = consonantArray.map(function(element) {
   return element + "a";
 });
-vowelizedArray.join("");  */
+vowelizedArray.join("");  
 
 const vowels = ["a", "e", "i", "o", "u"];
 const consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
@@ -52,3 +52,4 @@ $(document).ready(function () {
     console.log(inputChar);
   });
 });
+*/
