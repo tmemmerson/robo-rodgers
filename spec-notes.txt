@@ -32,7 +32,7 @@ copyright and license information
 
 
 spec: all non-numeric and non-alphanumeric inputs will be rejected
-input: OMGG99s3!!&&*ROBO445%%
+input: OMGG 99s3!!& &*ROBO 445%%
 ouput: "Please use only numbers. Our robot cannot translate such a complex and foreign alien language."
 
 spec: take user input and assign to array
