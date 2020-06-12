@@ -29,3 +29,28 @@ program name
 detailed setup instructions
 description
 copyright and license information
+
+
+spec: all non-numeric and non-alphanumeric inputs will be rejected
+input: OMGG99s3!!&&*ROBO445%%
+ouput: "Please use only numbers. Our robot cannot translate such a complex and foreign alien language."
+
+spec: take user input and assign to array
+input: 13
+output: [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
+
+spec: take user array and apply first order rule
+input: [0,1,2,3,4,5,6,7,8,9,10,11]
+output: [0,1,2,"Won't you be my neighbor?",4,5,6,7,8,9,10,11,12,"Won't you be my neighbor?"]
+
+spec: take user array and apply second order rule
+input: [0,1,2,"Won't you be my neighbor?",4,5,6,7,8,9,10,11,12,"Won't you be my neighbor?"]
+output: [0,1,"Boop!","Won't you be my neighbor?",4,5,6,7,8,9,10,11,"Boop!","Won't you be my neighbor?"]
+
+spec: take user array and apply third order rule
+input: [0,1,"Boop!","Won't you be my neighbor?",4,5,6,7,8,9,10,11,"Boop!","Won't you be my neighbor?"]
+output: [0,"Beep!","Boop!","Won't you be my neighbor?",4,5,6,7,8,9,10,"Beep!","Boop!","Won't you be my neighbor?"]
+
+spec: take user array after translation and display translated string to user
+input: 13
+output: "0,"Beep!","Boop!","Won't you be my neighbor?",4,5,6,7,8,9,10,"Beep!","Boop!","Won't you be my neighbor?"
