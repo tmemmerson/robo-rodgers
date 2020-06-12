@@ -1,36 +1,33 @@
-/* //BUSINESS LOGIC
-let humanArray = []
-let humanInput = function(input) {
+var listSentence = function(input) {
+  var numbers = []
   for (var i = 1; i <= input; i++) {
-      humanArray.push(i*10)
+      numbers.push(i)
   }
+  return numbers
 }
-let intermediateArray = function(input) {
-  let numArray = humanInput(input);
-  let text = ""
+var replaceSentence = function(input) {
+  var numArray = listSentence(input);
+  var text = ""
   for (var i = 1; i <= numArray.length; i++) {
-    if (input.includes(3)) {
-      numArray.push("beep boop")
-    } else {
-      numArray.push(i)
-    }
+      if (i.toString().includes("3")) {
+          text += "wont you be my neighbor?"
+      } else if (i.toString().includes("2")) {
+          text += "boop"
+      } else if (i.toString().includes("1")) {
+          text += "beep"
+      } else {
+          text += i
+      }
   }
-  console.log(numArray);
-  console.log(intermediateFunction);
+  return text
 };
 
 
-//USER LOGIC
 $(document).ready(function() {
   $("#submit").click(function() {
-      var english = $("#input").val()
-      var robot = intermediateFunction(english);
+      var entry = $("#input").val()
+      var final = replaceSentence(entry);
       $("#hidden").show()
       $("li").text("")
-      $("li").append(robot)
+      $("li").append(final)
   });
-
-}) */
-
-
-}
