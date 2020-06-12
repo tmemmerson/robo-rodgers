@@ -10,12 +10,13 @@ let intermediateFunction = function(input) {
   let numArray = humanInput(input);
   let text = ""
   for (var i = 1; i <= numArray.length; i++) {
-    if...
-      this
-      else if
-      this
-      else if
-      this
+    if element contains 3
+      this beepboop
+      else if element contains 2
+      this boop
+      else if element contains 3
+      this beep
+      else push?
   
   }
   console.log(numArray);
