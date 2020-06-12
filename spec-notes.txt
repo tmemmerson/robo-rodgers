@@ -1,0 +1,31 @@
+GOALS
+Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+
+FURTHER EXPLORATION
+Add images, styling, and custom animations.
+Implement different behaviors/effects/images for different inputs.
+Include an option that returns the output in reversed order (beginning with the largest number).
+Add a second form field that takes a name. For numbers that are divisible by 3, add the users name to the output e.g. "Won't you be my neighbor, Dana?"
+
+OBJECTIVES
+JavaScript business logic and user interface logic are separate.
+Logic is broken down into "plain English" specs, listed in README.
+Application implements a loop and works as expected.
+The user can use the app repeatedly and see new results.
+All previous objectives have been met.
+Required functionality is in place by Friday deadline.
+Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+
+PREVIOUS OBJECTIVES
+Project is in a presentable, portfolio-quality state.
+Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
+Variable names are descriptive and use lower camel case (e.g. myVariableExample).
+Commits are made regularly with clear messages that finish the phrase "It will…".
+Project README that includes, bare minimum:
+author name
+program name
+detailed setup instructions
+description
+copyright and license information
