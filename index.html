@@ -8,23 +8,23 @@
   <link rel="icon" type="image/png" href="img/favicon.png">
   <title>Robo-Rodgers Code Review</title>
   </head>
-      <body>
-              <h1>Robot Translator</h1>
-        </div>
-              <h2>Beep Boop!</h2>
-              <h3>Rules:</h3>
-              <p>rule0</p>
-              <p>rule1</p>
-              <p>rule2</p>
-              <p>rule 3</p>
-              <label>Hello Human, enter your input here.</label>
-              <input id = "input"></input>
-              <button class = "btn btn-primary" id = "submit">Submit</button>
-              <ul id = "output">
-                  <li id = "hidden"></li>
-              </ul>
-            </div>
-        </div>
-      </div>
-  </body>
+  <body>
+    <div class="container">
+      <h1>Robot Translator</h1>
+      <h2>Beep Boop!</h2>
+      <h3>Here are the Rules:</h3>
+      <h4>You must enter a number! No tricky business, human.</h4>
+        <p>All numbers up through your inputted number will be assesed by the following:</p>
+        <p>if the number contains a 1 therein, I will say "beep"</p>
+        <p>if the number contains a 2 therein, I will say "boop"</p>
+        <p>if the number contains a 3 therein, I will say "Won't you be my neighbor?"</p>
+        <p>the rules prioritize as follows rule 3> rule 2> rule 1. (for example: input of 123 would say "Won't you be my neighbor?" and number 1,112 would say "boop".</p>
+        <label>Hello Human, enter your number here.</label>
+        <input id="input">
+        <button class="btn btn-primary" id="submit">Submit</button>
+        <ul id="output">
+          <li id="hidden" style="display: list-item;">
+        </ul>
+    </div>
+</body>
 </html>
