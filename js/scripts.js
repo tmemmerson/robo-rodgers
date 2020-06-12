@@ -53,3 +53,24 @@ $(document).ready(function () {
   });
 });
 */
+
+//BUSINESS LOGIC
+var humanInput = function(input) {
+  var humanArray = []
+  for (var i = 1; i <= input; i++) {
+      humanArray.push(i)
+  }
+  return humanArray
+}
+
+//USER LOGIC
+$(document).ready(function() {
+  $("#submit").click(function() {
+      var english = $("#input").val()
+      var robot = replaceNumbers(english);
+      $("#hidden").show()
+      $("li").text("")
+      $("li").append(robot)
+  });
+
+})
