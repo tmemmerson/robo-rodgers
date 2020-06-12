@@ -1,23 +1,19 @@
-//BUSINESS LOGIC
+/* //BUSINESS LOGIC
 let humanArray = []
 let humanInput = function(input) {
   for (var i = 1; i <= input; i++) {
       humanArray.push(i*10)
   }
-  return humanArray
 }
-let intermediateFunction = function(input) {
+let intermediateArray = function(input) {
   let numArray = humanInput(input);
   let text = ""
   for (var i = 1; i <= numArray.length; i++) {
-    if element contains 3
-      this beepboop
-      else if element contains 2
-      this boop
-      else if element contains 3
-      this beep
-      else push?
-  
+    if (input.includes(3)) {
+      numArray.push("beep boop")
+    } else {
+      numArray.push(i)
+    }
   }
   console.log(numArray);
   console.log(intermediateFunction);
@@ -34,4 +30,7 @@ $(document).ready(function() {
       $("li").append(robot)
   });
 
-})
+}) */
+
+
+}
