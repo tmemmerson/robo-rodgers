@@ -1,3 +1,4 @@
+//BUSINESS LOGIC
 var listSentence = function(input) {
   var numbers = []
   for (var i = 1; i <= input; i++) {
@@ -22,6 +23,7 @@ var replaceSentence = function(input) {
   return text
 };
 
+//USER LOGIC
 $(document).ready(function() {
   $("#submit").click(function() {
       var entry = $("#input").val()
