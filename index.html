@@ -1,4 +1,3 @@
-
 <html>
   <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -9,22 +8,39 @@
   <title>Robo-Rodgers Number Translator</title>
   </head>
   <body>
+    <svg viewbox="0 0 50 50" width="50" height="50">
+      <defs>
+        <mask id="mask" x="0" y="0" width="100" height="49">
+          <rect x="0.5" y="0.5" width="99" height="99" fill="#fff"/>
+          <text x="4" text-anchor="middle" y="50" dy="0">h</text>
+          <text x="8" text-anchor="middle" y="50" dy="0">i</text>
+          <text x="11" text-anchor="middle" y="50" dy="0"> </text>
+          <text x="15" text-anchor="middle" y="50" dy="0">h</text>
+          <text x="21" text-anchor="middle" y="50" dy="0">u</text>
+          <text x="29" text-anchor="middle" y="50" dy="0">m</text>
+          <text x="37" text-anchor="middle" y="50" dy="0">a</text>
+          <text x="43" text-anchor="middle" y="50" dy="0">n</text>
+        </mask>
+      </defs>
+      <rect x="0.5" y="0.5" width="49" height="49" mask="url(#mask)" fill-opacity="1" fill="#E3DFD2"/>
+    </svg>
+    
     <div class="container">
       <h1>Robot Mr. Rodgers Number Translator</h1>
       <h2>Beep Boop!</h2>
       <h3>Here are the Rules:</h3>
       <h4>You must enter a number! No tricky business, human.</h4>
-        <p>All numbers up through your inputted number will be assesed by the following:</p>
-        <p>if the number contains a 1 therein, I will say "beep"</p>
-        <p>if the number contains a 2 therein, I will say "boop"</p>
-        <p>if the number contains a 3 therein, I will say "Won't you be my neighbor?"</p>
-        <p>the rules prioritize as follows rule 3> rule 2> rule 1. (for example: input of 123 would say "Won't you be my neighbor?" and number 1,112 would say "boop".</p>
-        <label>Hello Human, enter your number here.</label>
-        <input id="input">
-        <button class="btn btn-primary" id="submit">Submit</button>
-        <ul id="output">
-          <li id="hidden" style="display: list-item;">
-        </ul>
+      <p>All numbers up through your inputted number will be assesed by the following:</p>
+      <p>if the number contains a 1 therein, I will say "beep"</p>
+      <p>if the number contains a 2 therein, I will say "boop"</p>
+      <p>if the number contains a 3 therein, I will say "Won't you be my neighbor?"</p>
+      <p>the rules prioritize as follows rule 3> rule 2> rule 1. (for example: input of 123 would say "Won't you be my neighbor?" and number 1,112 would say "boop".</p>
+      <label>Hello Human, enter your number here.</label>
+      <input id="input">
+      <button class="btn btn-primary" id="submit">Submit</button>
+      <ul id="output">
+        <li id="hidden" style="display: list-item;">
+      </ul>
     </div>
 </body>
 </html>
